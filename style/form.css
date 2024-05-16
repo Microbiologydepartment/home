@@ -1,0 +1,61 @@
+.colorful-form {
+    width: 55%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #eeeeee;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    height: 425px;
+}
+  
+.form-group {
+    margin-bottom: 45px;
+    width: 100%;
+    height: 44px;
+}
+  
+.form-label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0px;
+    margin-left: 5px;
+    color: #333;
+}
+  
+.form-input {
+    width: 95%;
+    padding: 10px;
+    border: none;
+    background-color: #fff;
+    color: #333;
+    border-radius: 5px;
+}
+  
+.form-button {
+    display: block;
+    width: 30%;
+    padding: 10px;
+    background-color: #ff6f69;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transform: translateY(54px);
+    transition: background-color 0.3s ease;
+}
+  
+.form-button:hover {
+    background-color: #ff5f59;
+}
+
+#report-input{
+    height: 100px;
+}
+
+  
+
+@media (max-width: 767px) {
+    .colorful-form{
+        width: 100%;
+    }
+}
